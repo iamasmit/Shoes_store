@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&family=Poppins:wght@400;700&family=Zen+Kaku+Gothic+Antique&display=swap");
+body {
+  background-color: black;
+  font-family: 'arial',sans-serif;
+}
+.grid{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+  background-color: #ffffff;
+  width: 18rem;
+  height: 8rem;
+  border-radius: 5px;
+  border: 10px solid #422011;
+  border-radius: 30px;
+  margin-top:3em ;
+
+}
+.item .headings{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.grid h2{
+  font-size: 2em;
+}

@@ -1,0 +1,83 @@
+@import url("http://fonts.cdnfonts.com/css/bankgothic-lt-bt");
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: absolute;
+}
+.items .heading h1 {
+  margin-left:40vw;
+  margin-bottom:1em;
+  margin-top: 1em;
+  width: 18rem;
+  background:rgba(0, 0, 0, 0.6) ;
+  color: #ffffff;
+  font-size: 4rem;
+  font-family: 'rage';
+  font-weight: 600;
+  border: 2px solid white;
+}
+
+.items {
+text-align: center;
+  display:inline-block; 
+  justify-content: end;
+}
+
+.product {
+  background: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  width: 20rem;
+  height: 24rem;
+  text-align: center;
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+  border: 2px solid white;
+  border-radius: 30px;
+  color: wheat;
+}
+.items h2{
+  margin-top:0.5em;
+  font-size: 1.5em;
+}
+
+.items button{
+  color: #fff;
+  width: 12rem;
+  height: 2rem;
+  cursor: pointer;
+  margin-top:0.5em;
+  font-weight: 750;
+  border: 3px solid #530202;
+  border-radius: 8px;
+  background-image: -webkit-linear-gradient(30deg, #530202 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #530202 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.items button:hover {
+  background-position: 100%;
+  color: #530202;
+}
+
+.check a{
+    text-decoration: none;
+    color:white;
+}
+.check:hover > a{color:#080401;}
+
+.image{
+    margin-top: 0.5em;
+    margin-bottom:-0.5em;
+    text-align: center;
+    width: 15rem;
+    height: 13rem;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+  }

@@ -1,0 +1,93 @@
+body {
+    background-image:url("bg.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Assistant', 'sans-serif';
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-user{
+    display:none;
+  }
+  .login {
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    box-shadow: 
+      0px 2px 10px rgba(0,0,0,0.2), 
+      0px 10px 20px rgba(0,0,0,0.3), 
+      0px 30px 60px 1px rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 30px;
+    min-width: 40vw;
+    margin-bottom: 2em;
+    margin-top: 10px;
+  }
+  .login .company {
+    display: flex;
+    font-family: 'rage';
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  .login .msg {
+    text-align: center;
+  }
+  .login .form input[type=text].text, input[type=email].email {
+    border: 0.5px solid white; 
+    background: none;
+    box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.9);
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    font-weight: 500px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 4px;
+  }
+  .login .form .text::placeholder,.email::placeholder {
+    color: #D3D3D3;
+  }
+  .login .form .password {
+    border: 0.5px solid white; 
+    background: none;
+    box-shadow: 0px 1px 3px 0px rgba(255, 255, 255, 0.9);
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 4px;
+  
+  }
+  .login .form .password::placeholder {
+    color: #D3D3D3;
+  }
+  .pass{
+    display: flex;
+  }
+  .login .form .btn-login {
+    background: none;
+    text-decoration: none;
+    color: white;
+    border-color: white;
+    border-radius: 3px;
+    padding: 5px 2em;
+    transition: 0.5s;
+    margin-top:2em;
+    margin-bottom:1em;
+  
+  }
+  
+#togglePassword{
+    margin-left:-8%; margin-top:0.5em; cursor: pointer;
+}
+  .login .form .btn-login:hover {
+    background: rgb(46, 43, 43);
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }

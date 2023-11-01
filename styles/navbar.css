@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+}
+.custom-navbar {
+  background-color: #5302029f; /* Background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+}
+
+.custom-navbar a.navbar-brand {
+  color: #fff; /* Text color for the brand */
+  font-size: 28px; /* Brand font size */
+  text-decoration: none; /* Remove underlines */
+  font-weight: bold; /* Brand font weight */
+  font-family: rage;
+  margin-left: 3%;
+}
+
+/* Custom Navigation List Styles */
+.custom-nav {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.custom-nav-item {
+  margin-right: 15px; /* Spacing between nav items */
+}
+
+.custom-nav-link {
+  color: #fff; /* Text color for nav links */
+  text-decoration: none; /* Remove underlines */
+  font-family: arial;
+  font-size: 18px;
+}
+
+
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .custom-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .custom-nav {
+    flex-direction: column;
+  }
+  .custom-nav-item {
+    margin: 10px 0;
+  }
+}
+
+.custom-logout-btn{
+  width: 5rem;
+  height: 2.5rem;
+  margin-right:2em;
+  transition: all .2s ease-in-out;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.bag-img img{
+  border: 2px solid white;
+  border-radius:20%;
+  transition: all .2s ease-in-out;
+}
+.bag-img img:hover,.custom-logout-btn:hover {
+  background: transparent;
+  color:white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.custom-user-info{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.custom-user-info h5{
+  color: white;
+  font-size: 18px;
+}
+.nav-user{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
